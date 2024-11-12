@@ -1,0 +1,40 @@
+/* src/App.css */
+body {
+  background: linear-gradient(135deg, rgb(28, 41, 79), rgb(4, 46, 45));
+  font-family: Arial, sans-serif;
+}
+
+.qr-generator {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+}
+
+.qr-generator h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.qr-generator .form-control {
+  border-radius: 10px;
+}
+
+.qr-generator .btn {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.qr-generator .btn-dark {
+  background-color: black;
+  color: white;
+}
+
+.qr-generator img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
